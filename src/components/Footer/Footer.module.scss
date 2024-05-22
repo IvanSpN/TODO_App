@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  div {
+    padding: 5px;
+  }
+}

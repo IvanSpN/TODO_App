@@ -1,5 +1,10 @@
 import React from 'react';
-
-export const Todo: React.FC = () => {
-  return <div>Todo</div>;
+//@ts-ignore
+export const Todo: React.FC = ({ title, desc }) => {
+  return (
+    <div>
+      <h2>Название: {title}</h2>
+      <h3>Описание: {desc}</h3>
+    </div>
+  );
 };
